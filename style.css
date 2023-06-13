@@ -1,0 +1,132 @@
+body{
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: antiquewhite;
+}
+div.relative{
+    position: absolute;
+    top: 760px;
+    right: 120px;
+}
+.hide-container{
+    display: none;
+}
+.header{
+    color: rosybrown;
+    text-align: center;
+    margin: 15px 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.enter-player{
+    color: rosybrown;
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    position: relative;
+}
+.input-field{
+    border: 2px solid black !important;
+    outline: none;
+    padding: 4px 8px;
+    margin: 0 0 10px 4px;
+    font-size: 18px;
+}
+.input-field:focus{
+    border: 2px solid red;
+}
+.submit-btn{
+    border:2px solid black !important;
+    padding: 8px 8px;
+    font-size: 18px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: white;
+}
+.submit-btn:active
+.submit-btn:focus{
+    outline: none;
+    border: 2px solid red;
+}
+.submit-btn:hover{
+    background-color: aquamarine;
+}
+.board-player-turn{
+    color: blueviolet;
+    text-align: center !important;
+    margin: 10px 0 10px;
+    height: 54px;
+
+}
+.name-style{
+    color: red;
+    font-size: 22px;
+}
+.board-container{
+    width: 40%;
+    background-color: cadetblue !important;
+    margin: 0 auto;
+    font-size: 0;
+    border: 2px solid black;
+    box-shadow: 3px 3px 3px 0px black !important;
+}
+.board-cell{
+    width: 15%;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 8.58%;
+    vertical-align: top;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.board-cell-winner{
+    background-color: red;
+}
+.letter{
+    color: aliceblue;
+    position: absolute;
+    transform: translate(100%, -50%);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.reset{
+    text-align: center;
+    margin: 20px auto;
+}
+.reset-hidden{
+    display: none;
+}
+.reply-btn{
+    width: 25%;
+    padding: 10px 20px;
+    border: 2px solid beige;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 12px;
+    word-spacing: 3px;
+    background-color: wheatblue;
+}
+.reply-btn:hover
+.reply-btn:active{
+    outline:none;
+    color: aliceblue;
+    background-color: black;
+}
+.congratulations{
+    font-size: 24px;
+}
+.u-r.winner{
+    font-size: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: 2px 0;
+
+}
+.replay-btn{
+    width: 50%;
+}

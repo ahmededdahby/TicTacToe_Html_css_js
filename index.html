@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <h1 class="header">Tic Tac Toe</h1>
+    </div>
+    <div class="enter-player ">
+        <form action="" id="player-form">
+            <div class="player-container">
+                <label for="player1">Player 1</label>
+                <input class="input-field" type="text" name="player1" id="player1" placeholder="enter name">
+            </div>
+            <div class="player-container">
+                <label for="player2">Player 2</label>
+                <input class="input-field" type="text" name="player2" id="player2" placeholder="enter name">
+            </div>
+            <input class="submit-btn" type="submit" value="start game">
+        </form>
+    </div>
+
+    <div class="board-main hide-container">
+        <div class="board-player-turn"></div>
+        <div class="board-container">
+            <div class="board-cell">
+                <div class="letter" data-id="0"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="1"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="2"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="3"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="4"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="5"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="6"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="7"></div>
+            </div>
+            <div class="board-cell">
+                <div class="letter" data-id="8"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="relative"></div>
+    <div class="reset reset-hidden">
+        <div class="reset-text"></div>
+        <button class="reply-btn">reply</button>
+        <span class="clear-board">clear board</span>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
